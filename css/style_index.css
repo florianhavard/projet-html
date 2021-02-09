@@ -1,17 +1,26 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
-body {
-    background: white;
-}
 
 
 video {
-    position: fixed;
-    width: 100%;
-    z-index: -1;    
-    padding:0px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 
-    margin-left: 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+
+    transform: translateX(-50%) translateY(-50%);
 }
 
 section #banner{
@@ -19,7 +28,8 @@ section #banner{
 }
 
 #banner {
-    color: #f2a3a5;
+    font-family: 'Raleway', sans-serif;
+    color: white;
     font-size: 20px;
     padding: 9em 0 11em 0;
     text-align: center;
@@ -27,43 +37,76 @@ section #banner{
     z-index: 9999;
 }
 
-#header .logo {
-    font-family: 'Pacifico', cursive;
-    display: inline-block;
-    height: inherit;
-    line-height: inherit;
-    position: absolute;
-    color: #e5474b;
-    font-size: 1.75em;
-    text-transform: none;
-    font-weight: normal;
-    padding: 0;
-}
+
 #header {
+    width: 100%;
+
     z-index: 8;
     position: -webkit-sticky;
     position: sticky;
-    top: 0px;
+    background: #1c1c1c;
 
-    background: white;
-    
-    margin-top: 20px;
-    text-align: center;
-    
-    line-height: 50px;
+    line-height: 80px;
+    text-align: right;
+
+    display: block;
+    left: 0;
+
+    margin-bottom: 0px;
 }
 
 #header nav {
-    display: inline;
     list-style: none; 
-    margin: 35px; 
 }
 
 #header a {
-
     text-decoration: none;
-    color: #8f8f8f;
+    font-family: 'Sriracha', cursive;
+    color: white;
     font-size: 20px;
     position: relative;
-    text-transform: uppercase; 
+
+    margin-right: 50px;
 }
+
+#header a:last-child {
+    margin-right: 150px;
+}
+
+#header .inner {
+    margin: 0 auto;
+    position: relative;
+}
+
+#description {
+    margin-top: 0px;
+    background: white;
+    
+}
+
+h4 {
+    text-indent: 1.7em;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+p {
+    line-height: 55px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img {
+    border: 0;
+    height: 100%;
+}
+
+.imageleft {
+    float: left;
+    margin: 0 0 0 1.5em;
+	top: 0.25em;
+}
+
