@@ -53,6 +53,7 @@ section #banner{
     left: 0;
 
     margin-bottom: 0px;
+    top:0px;
 }
 
 #header nav {
@@ -79,6 +80,10 @@ section #banner{
 }
 
 #sommaire{
+    z-index: 8;
+    position: -webkit-sticky;
+    position: sticky;
+    background: #1c1c1c;
     
     background-color: #1c1c1c;
     float: left;
@@ -86,6 +91,7 @@ section #banner{
     margin-top: 5px;
     font-family: 'Sriracha', cursive;
     color: white;
+    top: 86px;
 }
 
 #sommaire a {
@@ -96,8 +102,7 @@ section #banner{
 
 #corp{
     display: inline-block;
-    margin: 16px;
-    margin-top: 5px;
+    margin: 5px 0.5% 5px 0.5%; 
     background-color: white;
     width: 83%;
     color: black;
@@ -105,7 +110,8 @@ section #banner{
 
 .para {
     margin: 0;
-    padding: 5px;
+    padding: 0;
+    padding-bottom: 16px;
 }
 
 table{
@@ -124,10 +130,38 @@ td,th{
     background-color: rgb(179, 179, 179);
 }
 
+abbr{
+    text-decoration: none;
+    font-style: italic;
+}
+
 h2{
+    font-family: 'Sriracha', cursive;
+    margin: 0;
     padding: 10px;
     background-color: #1c1c1c;
     color: white;
     text-align: center;
-
 }
+
+h3 {
+/*    margin: 15px;
+    padding: 5px;*/
+    color: #e5474b; 
+    text-decoration: underline;
+    display: block;
+    width: 105px;
+}
+/*
+#expo{
+    background-color: #7e645a83;
+}
+
+#expo > table{
+    color: white;
+    
+}
+
+#expo h3{
+    color: #e5474b;
+}*/
