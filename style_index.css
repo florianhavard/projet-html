@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    margin: 0; 
+    font-family: 'Raleway', sans-serif;
+}
+
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h2 {
+    color: #e5474b;
+    font-weight: 700;
+
+	text-transform: uppercase;
+
+}
+
+section #banner{
+    background: none;
+}
+
+#banner {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 9em 0 11em 0;
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+}
+
+
+#top-bar {
+    width: 100%;
+
+    z-index: 8;
+    position: -webkit-sticky;
+    position: sticky;
+    background: #1c1c1c;
+
+    line-height: 80px;
+    text-align: right;
+    top: 0px;
+
+
+
+    margin-bottom: 0px;
+}
+
+#top-bar nav {
+    display: inline;
+
+}
+
+#top-bar a {
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+    margin-right: 50px;
+}
+
+#top-bar a:last-child {
+    margin-right: 150px;
+}
+
+
+
+#description {
+    margin-top: 0px;
+    background: white;
+
+    margin-bottom: 0px;
+    
+}
+
+#description h2, #tableau h2 {
+    text-indent: 1.3em;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+#description p {
+    line-height: 55px;
+    text-indent: 30px;
+
+}
+
+img {
+    border: 0;
+    height: 100%;
+}
+
+.imageleft {
+    float: left;
+    margin: 0 0 0 1.5em;
+    margin-right: 20px;
+	top: 0.25em;
+}
+
+
+
+#description a {
+    
+    text-decoration: none;
+    background-color: transparent;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: #e5474b;
+    
+    box-shadow: inset 0 0 0 2px #e5474b;
+
+}
+
+.bouton {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 17px;
+}
+
+#description a:hover {
+
+    background: #e5474c3b;
+
+}
+
+
+#tableau {
+    margin-top: 0px;
+    background: rgb(103,103,103);
+    background: linear-gradient(149deg, rgba(103,103,103,1) 0%, rgb(128, 128, 128) 100%);
+
+    padding-bottom: 25px;
+}
+
+
+.pic-ctn {
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    height: 400px;
+    padding-bottom: 5px;
+
+
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  .pic-ctn > figure {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 140px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  figure:nth-child(2) {
+    animation-delay: 2s;
+  }
+  figure:nth-child(3) {
+    animation-delay: 4s;
+  }
+  figure:nth-child(4) {
+    animation-delay: 6s;
+  }
+  figure:nth-child(5) {
+    animation-delay: 8s;
+  }
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+#tableau a {
+    background-color: #e5474b;
+    
+    text-decoration: none;
+    padding: 20px 40px;
+    border-radius: 3px;
+    color: white;
+
+
+}
+
+#tableau a:hover {
+    background-color: #e5474cbe;
+}
+
+#text {
+    margin: 20px;
+    background: white;
+    padding: 5px;
+}
+
+#text p {
+    text-indent: 25px;
+    line-height: 50px;
+    padding: 8px;
+}
+
+#text:nth-child(1){
+    text-indent: 5px;
+}
