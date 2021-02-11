@@ -102,10 +102,66 @@
                 elles-mêmes.</p>
         </div>
     </div>
-
-
-
     <!-- Fin technique   -->
+
+
+    <!-- Nombre   -->
+    <div id="nombre">
+        <h2>Des chiffres sur moi</h2>
+        <table>
+            <tr>
+                <td>152<br>Peintures</td>
+                <td></td>
+                <td>5<br>Expositions</td>
+                <td></td>
+                <td>2<br>Livres</td>
+                <td></td>
+                <td>86<br>Gravures</td>
+            </tr>
+
+        </table>
+    </div>
+    <!-- Fin Nombre   -->
+
+
+    <!-- Formulaire  -->
+    <section id="formulaire">
+
+        <h2>Vous avez des questions ?</h2>
+
+        <form method="post" action="#">
+            <div id="nameetmail">
+                <label for="name">Nom</label>
+                <input type="text" name="name" id="name" required />
+
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" required />
+
+                <div class="choix">
+                    <select name="category" id="category">
+                        <option value="">- Objet -</option>
+                        <option value="1">Commande</option>
+                        <option value="1">Question</option>
+                        <option value="1">Autres</option>
+                    </select>
+                </div>
+
+
+                <div class="message">
+                    <label for="message">Message<br></label>
+                    <textarea name="message" id="message" rows="6" required></textarea>
+                </div>
+                <div>
+                    <ul class="boutonF">
+                        <li><input type="submit" value="Envoyer" class="alt" /></li>
+                        <li><input type="reset" value="Supprimer" /></li>
+                    </ul>
+                </div>
+        </form>
+
+        </div>
+    </section>
+    <!-- Fin Formulaire  -->
 
 
 </body>

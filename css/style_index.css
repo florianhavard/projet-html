@@ -95,7 +95,7 @@ section #banner{
     
 }
 
-#description h2, #tableau h2 {
+#description h2, #tableau h2, #nombre h2, #formulaire h2 {
     text-indent: 1.3em;
     margin-top: 0px;
     padding-top: 80px;
@@ -248,4 +248,87 @@ figcaption {
 
 #text:nth-child(1){
     text-indent: 5px;
+}
+
+#nombre {
+  background: white;
+
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 32px;
+}
+
+
+tr {
+  height: 180px;
+}
+
+td:nth-child(odd) {
+  width: 250px;
+  background: rgba(128, 128, 128, 0.473);
+}
+
+td:nth-child(even) {
+  width: 10px;
+}
+
+#formulaire {
+  background: #e5474b;
+}
+
+#formulaire h2 {
+   color: white;
+}
+
+input, select, textarea {
+  width: 30%;
+  height: 52px;
+  border: 5px;
+
+  background: transparent;
+
+  border:2px solid #f08286;
+  border-radius: 3px;
+
+  margin: 20px;
+}
+
+input:hover, select:hover, textarea:hover {
+  background: transparent;
+  border:3px solid #f08286;
+}
+
+input:focus, select:focus{
+  outline: none;
+}
+
+.choix {
+  margin-left: 40px;
+}
+
+ul {
+  list-style-type: none;
+  }
+
+.message {
+  margin-left: 40px;
+  text-indent: 17px;
+}
+
+textarea {
+  width: 68%;
+  height: 28%;
+}
+
+#nameetmail {
+  margin-left: 90px;
+}
+
+
+.bouton:first-child {
+  background: #1c1c1c;
 }
