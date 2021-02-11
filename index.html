@@ -5,12 +5,16 @@
     <meta charset="utf-8">
     <title>Jean Yves Langlois </title>
     <link rel="stylesheet" href="css/style_index.css">
+
+    <script src="js/js.js">
+
+    </script>
 </head>
 
-<body>
+<body onload="Init()">
     <!-- En tête -->
     <video autoplay muted loop>
-        <source src="imagevideo/Octagon.mp4" type="video/mp4">
+        <source src="../background/background.mp4" type="video/mp4">
     </video>
     <section id="banner">
         <div class="inner">
@@ -27,10 +31,64 @@
             <a href="index.html">Acceuil</a>
             <a href="Qui-suis-je.html">Qui-suis-je</a>
             <a href="mes_oeuvre.html">Mes Oeuvres</a>
+            <img src="../background/lettre.png" width="60" height="40" alt="logo" id="logo">
         </nav>
 
     </header>
     <!-- Fin de Sommaire  -->
+
+
+    <!-- Formulaire  -->
+    <section id="formulaire">
+
+        <h2>Vous avez des questions ?</h2>
+
+        <div id="form">
+
+            <form method="post" action="#">
+                <label>
+                    Nom :
+                    <div>
+                        <input type="text" name="nom">
+                    </div>
+                </label>
+
+                <label>
+                    Email :
+                    <div>
+                        <input name="email" type="email" required>
+                    </div>
+                </label>
+
+                <label>
+                    Motif :
+                    <div>
+                        <select name="category">
+                            <option value="0">- Objet -</option>
+                            <option value="1">Commande</option>
+                            <option value="2">Question</option>
+                            <option value="3">Autres...</option>
+                        </select>
+                    </div>
+                </label>
+
+
+                <label>
+                    Message :
+                    <div>
+                        <textarea name="message" maxlength="250"></textarea>
+                    </div>
+                </label>
+
+                <div id="bouton">
+                    <button type="submit"> Envoyer </button>
+                    <button type="reset"> Effacer </button>
+                </div>
+        </div>
+        </form>
+
+    </section>
+    <!-- Fin Formulaire  -->
 
     <!-- Desciption  -->
     <div id="description">
@@ -102,8 +160,8 @@
                 elles-mêmes.</p>
         </div>
     </div>
-    <!-- Fin technique   -->
 
+    <!-- Fin technique   -->
 
     <!-- Nombre   -->
     <div id="nombre">
@@ -122,47 +180,6 @@
         </table>
     </div>
     <!-- Fin Nombre   -->
-
-
-    <!-- Formulaire  -->
-    <section id="formulaire">
-
-        <h2>Vous avez des questions ?</h2>
-
-        <form method="post" action="#">
-            <div id="nameetmail">
-                <label for="name">Nom</label>
-                <input type="text" name="name" id="name" required />
-
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" required />
-
-                <div class="choix">
-                    <select name="category" id="category">
-                        <option value="">- Objet -</option>
-                        <option value="1">Commande</option>
-                        <option value="1">Question</option>
-                        <option value="1">Autres</option>
-                    </select>
-                </div>
-
-
-                <div class="message">
-                    <label for="message">Message<br></label>
-                    <textarea name="message" id="message" rows="6" required></textarea>
-                </div>
-                <div>
-                    <ul class="boutonF">
-                        <li><input type="submit" value="Envoyer" class="alt" /></li>
-                        <li><input type="reset" value="Supprimer" /></li>
-                    </ul>
-                </div>
-        </form>
-
-        </div>
-    </section>
-    <!-- Fin Formulaire  -->
-
 
 </body>
 
