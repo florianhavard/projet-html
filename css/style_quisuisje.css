@@ -100,6 +100,10 @@ section #banner{
     font-size: 15px;
 }
 
+#sommaire li a:hover{
+    color: #e5474b;
+}
+
 #corp{
     display: inline-block;
     margin: 5px 0.5% 5px 0.5%; 
@@ -109,9 +113,19 @@ section #banner{
 }
 
 .para {
+    text-indent: 5%;
     margin: 0;
     padding: 0;
     padding-bottom: 16px;
+}
+
+#info{
+    padding: 10px;
+    line-height: 50px;
+}
+
+#info::first-letter{
+    font-size: 2em;
 }
 
 table{
