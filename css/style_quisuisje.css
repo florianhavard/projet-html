@@ -159,23 +159,8 @@ h2{
 }
 
 h3 {
-/*    margin: 15px;
-    padding: 5px;*/
     color: #e5474b; 
     text-decoration: underline;
     display: block;
-    width: 105px;
+    width: auto;
 }
-/*
-#expo{
-    background-color: #7e645a83;
-}
-
-#expo > table{
-    color: white;
-    
-}
-
-#expo h3{
-    color: #e5474b;
-}*/
