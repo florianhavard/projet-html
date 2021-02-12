@@ -257,10 +257,13 @@ figcaption {
 
 #nombre {
   background: white;
-
+ 
+  background-image: url(../imagevideo/brushes-4226688_1920.jpg);
   padding-bottom: 30px;
 
 }
+
+
 
 table {
   border-collapse: collapse;
@@ -276,7 +279,7 @@ tr {
 
 td:nth-child(odd) {
   width: 250px;
-  background: rgba(128, 128, 128, 0.473);
+  background: rgba(128, 128, 128, 0.808);
 }
 
 td:nth-child(even) {
