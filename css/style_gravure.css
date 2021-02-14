@@ -91,13 +91,19 @@ img[alt="logo"]{
   top: 13px;
 }
 
-.a1996 {
+h2 {
+    margin-top: 0px;
+    padding-top: 40px;
+    text-indent: 25px;
+}
+
+div {
     background: white;
 }
 
 table {
     border-collapse: separate;
-    border-spacing: 9px;
+    border-spacing: 12px;
     text-align: center;
     margin: auto;
     padding-bottom: 32px;
@@ -108,8 +114,8 @@ table {
   }
 
   td, th, tr {
-    border-style: solid;
-    border-width: 1px;
+    /*border-style: solid;
+    border-width: 1px;*/
     height: 200px;
 }
 
@@ -144,10 +150,136 @@ td {
     background-image: url("../conférencemontagediapos/1996\ l.jpg");
 }
 
-.a1996 tr:nth-child(3) td:nth-child(1){
-    background-image: url("../conférencemontagediapos/1996\ l.jpg");
-}
 
 .a1996 tr:nth-child(3) td:nth-child(2){
     background-image: url("../conférencemontagediapos/1996\ o.jpg");
+}
+
+.a1996 tr:nth-child(3) td:nth-child(3){
+    background-image: url("../conférencemontagediapos/1996\ e.jpg");
+}
+
+.a1996 tr:nth-child(4) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1996\ m.jpg");
+}
+
+.a1996 tr:nth-child(4) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1996\ m.jpg");
+}
+
+.a1996 tr:nth-child(5) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1996\ n.jpg");
+}
+
+.a1996 tr:nth-child(5) td:nth-child(2){
+    background-image: url("../conférencemontagediapos/1996\ a.jpg");
+}
+
+
+
+.a1994 tr:nth-child(1) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1994\ i.jpg");
+}
+
+.a1994 tr:nth-child(1) td:nth-child(2){
+    background-image: url("../conférencemontagediapos/1994\ a.jpg");
+}
+
+.a1994 tr:nth-child(2) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1994\ h.jpg");
+}
+
+.a1994 tr:nth-child(3) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1994\ d.jpg");
+}
+
+.a1994 tr:nth-child(3) td:nth-child(2){
+    background-image: url("../conférencemontagediapos/1994\ b.jpg");
+}
+
+.a1994 tr:nth-child(3) td:nth-child(3){
+    background-image: url("../conférencemontagediapos/1994\ g.jpg");
+}
+
+.a1994 tr:nth-child(4) td:nth-child(1){
+    background-image: url("../conférencemontagediapos/1994\ c.jpg");
+}
+
+.a1994 tr:nth-child(4) td:nth-child(2){
+    background-image: url("../conférencemontagediapos/1994\ e.jpg");
+}
+
+.a1992 tr:nth-child(1) td:nth-child(1){
+    background-image: url("..//conférencemontagediapos/1992\ e.jpg");
+}
+
+.a1992 tr:nth-child(1) td:nth-child(2){
+    background-image: url("..//conférencemontagediapos/1992\ c.jpg");
+}
+
+.a1992 tr:nth-child(1) td:nth-child(3){
+    background-image: url("..//conférencemontagediapos/1992\ f.jpg");
+}
+
+.a1992 tr:nth-child(3) td:nth-child(1){
+    background-image: url("..//conférencemontagediapos/1992\ a.jpg");
+}
+
+.a1992 tr:nth-child(5) td:nth-child(1){
+    background-image: url("..//conférencemontagediapos/1992\ d.jpg");
+}
+.a1992 tr:nth-child(5) td:nth-child(2){
+    background-image: url("..//conférencemontagediapos/1992\ h.jpg");
+}
+
+.a1991 tr:nth-child(1) td:nth-child(1){
+    background-image: url("..//conférencemontagediapos/1991\ a.jpg");
+}
+
+.a1991 tr:nth-child(1) td:nth-child(2){
+    background-image: url("..//conférencemontagediapos/1991\ c.jpg");
+}
+
+.a1991 tr:nth-child(1) td:nth-child(3){
+    background-image: url("..//conférencemontagediapos/1991b.jpg");
+}
+
+
+.a1980 tr:nth-child(1) td:nth-child(1) {
+    background-image: url("..//conférencemontagediapos/1985\ b.jpg");
+}
+
+.a1980 tr:nth-child(1) td:nth-child(2) {
+    background-image: url("..//conférencemontagediapos/1986\ a.jpg.");
+}
+
+.a1980 tr:nth-child(1) td:nth-child(3) {
+    background-image: url("..//conférencemontagediapos/1986\ b.jpg");
+}
+.a1980 tr:nth-child(1) td:nth-child(4) {
+    background-image: url("..//conférencemontagediapos/1986c.jpg");
+}
+
+.a1980 tr:nth-child(2) td:nth-child(1) {
+    background-image: url("..//conférencemontagediapos/1980\ a.jpg");
+}
+
+.a1980 tr:nth-child(2) td:nth-child(2) {
+    background-image: url("..//conférencemontagediapos/1981\ \ a.jpg");
+}
+
+.a1980 tr:nth-child(3) td:nth-child(1) {
+    background-image: url("..//conférencemontagediapos/1985\ a.jpg");
+}
+
+.a1960 tr:nth-child(1) td:nth-child(1) {
+    background-image: url("..//conférencemontagediapos/1969\ a.jpg");
+}
+
+.a1960 tr:nth-child(1) td:nth-child(2) {
+    background-image: url("..//conférencemontagediapos/1969\ c.jpg");
+}
+
+.a1960 tr:nth-child(1) td:nth-child(3) {
+    background-image: url("..//conférencemontagediapos/1969\ b.jpg");
 }
