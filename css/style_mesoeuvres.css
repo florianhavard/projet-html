@@ -106,6 +106,37 @@ table{
     padding: 1em;
 }
 
-.row1{
-    margin: ;
+#tableau_O_P {
+    margin: 0;
+}
+
+#tableau_O_P table{
+    border: none;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+#tableau_O_P a{
+    text-decoration: none;    
+}
+
+#tableau_O_P td:last-child{
+    background: #1c1c1c;  
+}
+#tableau_O_P td:last-child a{
+    color: white;   
+    padding: 40px 40%;  
+}
+
+#tableau_O_P td:first-child{
+    background: #474747;    
+}
+#tableau_O_P td:first-child a{
+    color: rgba(255, 255, 255, 0.486);
+    padding: 40px 40%;  
 }
