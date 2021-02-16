@@ -90,22 +90,45 @@ section #banner{
     margin-right: 150px;
 }
 
-div{
-    margin: 16px;
+#contenue{
+    margin: 0;
     background-color: white;
 }
 
-img {
-    width: 40%;
-    height: auto;
-}
-
 table{
-    margin: 1em;
-    border: 1em solid blue;
-    padding: 1em;
+    padding: 16px;
+    background-color: rgb(218, 218, 218);
 }
 
-.row1{
-    margin: ;
+td {
+    table-layout: fixed;
+    width: 40%;
+    padding: 2%;
+    ;
+}
+
+.un{
+    width: 70%;
+    border: 5px solid #ffff16;
+}
+
+.deux{
+    width: 80%;
+    border: 5px solid #1221ff;
+}
+
+.trois{
+    width: 90%;
+    border: 5px solid #099810;
+}
+
+.quatre{
+    width: 100%;
+    border: 5px solid #ff5546;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
 }
