@@ -125,6 +125,14 @@ img {
 	top: 0.25em;
 }
 
+#info{
+  padding: 10px;
+  line-height: 50px;
+}
+
+#info::first-letter{
+  font-size: 2em;
+}
 
 
 #description a {
