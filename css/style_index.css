@@ -7,23 +7,12 @@ body {
 }
 
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-
     position: fixed;
     top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
+    left: 50%; /* Permet de center la vidéo*/
+    transform: translateX(-50%) translateY(-50%); /* Mais la vidéo en grand au milei de la page  */
     z-index: -100;
-
-    transform: translateX(-50%) translateY(-50%);
+    
 }
 
 h2 {
