@@ -144,7 +144,7 @@ img[alt="logo"]{
 }
 
 
-.pic-ctn {
+.image-globale{
     position: relative;
     margin-top: 0px;
     width: 100%;
@@ -152,7 +152,7 @@ img[alt="logo"]{
     padding-bottom: 5px;
   }
   
-.pic {
+.imageCarousel {
     width: 380px;
     height: 260px;
 }
@@ -180,9 +180,8 @@ img[alt="logo"]{
     }
   }
   
-  .pic-ctn > figure {
+  .image-globale > figure {
     position: absolute;
-    top: 0;
     left: calc(50% - 220px);
     opacity: 0;
     animation: display 10s infinite;
