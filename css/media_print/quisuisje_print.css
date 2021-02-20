@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+video {
+    display: none;
+}
+
+section #banner{
+    background: none;
+}
+
+#banner {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 20px;
+    padding: 9em 0 11em 0;
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+}
+
+#header {
+    width: 100%;
+
+    z-index: 8;
+    position: relative;
+    background: #1c1c1c;
+
+    line-height: 80px;
+    text-align: right;
+
+    display: block;
+    left: 0;
+
+    margin-bottom: 0px;
+}
+
+#header nav {
+    list-style: none; 
+}
+
+#header a {
+    text-decoration: none;
+    font-family: 'Sriracha', cursive;
+    color: white;
+    font-size: 20px;
+    position: relative;
+
+    margin-right: 50px;
+}
+
+#header a:last-child {
+    margin-right: 150px;
+}
+
+#header .inner {
+    margin: 0 auto;
+    position: relative;
+}
+
+#sommaire{
+    z-index: 8;
+    position: relative;  
+    background-color: #1c1c1c;
+    float: left;
+    width: 30%;
+    margin-top: 5px;
+    font-family: 'Sriracha', cursive;
+    color: white;
+}
+
+#sommaire a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+#corp{
+    display: inline-block;
+    margin: 5px 0.5% 5px 0.5%; 
+    background-color: white;
+    width: 90%;
+    color: black;
+}
+
+.para {
+    text-indent: 5%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 16px;
+}
+
+#info{
+    padding: 10px;
+    line-height: 50px;
+}
+
+#info::first-letter{
+    font-size: 2em;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid ;
+    width: 90%;
+    margin-left: 5%;
+}
+
+td,th{
+    text-align: center;
+    border: 1px solid ;
+}
+
+.vide{
+    background-color: rgb(179, 179, 179);
+}
+
+abbr{
+    text-decoration: none;
+    font-style: italic;
+}
+
+h2{
+    font-family: 'Sriracha', cursive;
+    margin: 0;
+    padding: 10px;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: black; 
+    text-decoration: underline;
+    display: block;
+    width: auto;
+}
