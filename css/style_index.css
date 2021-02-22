@@ -66,9 +66,6 @@ section #banner{
     margin-right: 50px;
 }
 
-#top-bar a:last-child {
-    margin-right: 150px;
-}
 
 img[alt="logo"]{
   margin-right: 2%;
@@ -157,7 +154,7 @@ img[alt="logo"]{
     height: 260px;
 }
 
-  @keyframes display {
+  @keyframes passage {
     0% {
       transform: translateX(200px);
       opacity: 0;
@@ -184,7 +181,7 @@ img[alt="logo"]{
     position: absolute;
     left: calc(50% - 220px);
     opacity: 0;
-    animation: display 10s infinite;
+    animation: passage 10s infinite;
   }
   
   figure:nth-child(2) {
